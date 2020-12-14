@@ -1,0 +1,52 @@
+├── assets  // 静态资源文件夹
+│   ├── ks_rn_audio // 音频相关
+│   │   └── noNetwork.mp3
+│   ├── ks_rn_fonts // 字体相关
+│   │   └── iconfont.ttf
+│   ├── ks_rn_svga // svga相关
+│   │   ├── common_pic_loading_small.svga
+│   └── mine_pic_content_noPlays@3x.png // 图片
+├── business // 业务文件夹
+│   └── card
+│       ├── components // 业务组件文件夹
+│       │   └── Card.tsx
+│       ├── index.tsx // 业务入口文件
+│       ├── models // 数据相关(redux)
+│       │   ├── home.ts
+│       │   └── index.ts
+│       ├── modules // 页面相关
+│       │   └── Home.tsx
+│       └── utils // 工具类相关
+│           ├── api.ts
+│           ├── events.ts
+│           └── kredux.ts
+├── cli // 打包相关
+│   ├── edit_modules // 对第三方的修改
+│   │   └── @types
+│   │       └── react-native
+│   │           └── index.d.ts
+│   ├── index.js 
+│   ├── options.json // 公共包版本管理
+│   ├── overwrite.js // 一些工具方法
+│   ├── template // 模板
+│   │   ├── index.js // 真正的业务入口文件，业务入口是其子组件，是对业务的一层包裹
+│   │   └── index.tsx // 业务入口，新增业务时使用
+│   └── utils.js
+├── common // 公共包文件夹
+│   ├── components // 公共组件文件夹
+│   │   ├── Button
+│   │   │   └── index.tsx
+│   │   └── index.ts
+│   ├── index.js // 公共包入口文件
+│   ├── ks-rn-options.json // 热更新key，js包的mapid，业务包名字的管理
+│   ├── types // 公共type
+│   │   └── index.ts
+│   └── utils // 公共类方法
+│       └── index.ts
+├── .eslintignore
+├── .eslintrc.js
+├── .gitignore
+├── .prettierrc.js
+├── babel.config.js
+├── package.json
+└── tsconfig.json
