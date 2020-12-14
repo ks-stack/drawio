@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T06:12:42.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="dFzY7dAifcjDuoaJjyov" type="github"><diagram id="Horw-Q6wD5Wa3_21x4yh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-14T06:52:10.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Y0X-mYlgHlFdPPkOlBGp" version="14.0.1" type="github">
+  <diagram id="Horw-Q6wD5Wa3_21x4yh" name="Page-1">
+    <mxGraphModel dx="994" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-1" target="PvbaWDzWZbeZz1wmd4CI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-1" value="jenkins选择打包属性&lt;br&gt;项目，分支，业务，环境，是否热更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-2" target="PvbaWDzWZbeZz1wmd4CI-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="470" />
+              <mxPoint x="480" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-2" target="PvbaWDzWZbeZz1wmd4CI-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="470" />
+              <mxPoint x="480" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-2" target="PvbaWDzWZbeZz1wmd4CI-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="470" />
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-2" target="PvbaWDzWZbeZz1wmd4CI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-2" value="打js公共包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="440" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-4" value="上传历史公共包依赖文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-5" target="PvbaWDzWZbeZz1wmd4CI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-5" value="获取历史公共包依赖文件&lt;br&gt;获取当前代码的上个版本公共包依赖文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-6" value="上传到热更新服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-7" value="上传本次公共包依赖文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="525" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-12" value="历史依赖增加" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-13" value="依赖改变" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="525" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-21" target="PvbaWDzWZbeZz1wmd4CI-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="570" />
+              <mxPoint x="300" y="520" />
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-21" target="PvbaWDzWZbeZz1wmd4CI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-21" value="打js业务包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="540" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-24" value="需要热更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-13" target="PvbaWDzWZbeZz1wmd4CI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-6" target="PvbaWDzWZbeZz1wmd4CI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-27" target="PvbaWDzWZbeZz1wmd4CI-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-27" value="更新原生代码库对应jsbundle的打包时间，作用是区分当前包是本地包还是热更新的包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-35" value="bundle发生变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PvbaWDzWZbeZz1wmd4CI-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="470" as="sourcePoint" />
+            <mxPoint x="620" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="470" />
+              <mxPoint x="480" y="420" />
+              <mxPoint x="620" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-37" value="更新js代码库的公共包版本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-40" value="bundle发生变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PvbaWDzWZbeZz1wmd4CI-48" target="PvbaWDzWZbeZz1wmd4CI-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-48" value="拷贝静态资源到对应的文件夹&lt;br&gt;如html，svga，音频，字体等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="730" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvbaWDzWZbeZz1wmd4CI-50" value="打原生包并发布到cocoapods和jcenter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="830" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
