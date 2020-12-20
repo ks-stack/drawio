@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T03:26:54.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cD_4wPV1Kftarsrk6V5V" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T03:28:09.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0Kq7e2h-i0pCMNrxLKH_" version="14.1.1" type="github">
   <diagram id="-FMuJsZBkuNm5iUB1e8e" name="Page-1">
     <mxGraphModel dx="950" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-93" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jz7rs78HyWnusC-rD2bU-2" value="这里好像不需要管那么多，直接销毁就行，因为按上面的逻辑，永远都会有一个未使用的webview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="805" width="120" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
