@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T03:09:20.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ke-__K5yKO8hJDhj2EZd" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T03:12:12.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="puC9H3gFyLkwQwYJ0qpA" version="14.1.1" type="github">
   <diagram id="-FMuJsZBkuNm5iUB1e8e" name="Page-1">
     <mxGraphModel dx="950" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-2" value="首页初始化" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-3" target="yMHHeyfULUPyWmnLAGgF-5">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-3" target="yMHHeyfULUPyWmnLAGgF-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-3" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;初始化一个webview&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -25,10 +25,18 @@
             <mxPoint x="490" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Qik62fncIohVU9IEnB7--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-20" target="I4NtMw9T6SOaLXnfnZ-y-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="605" />
+              <mxPoint x="480" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-20" value="用已初始化的webview承载h5页面，并将webview标记为正在使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="570" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-27" target="yMHHeyfULUPyWmnLAGgF-1">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-27" target="yMHHeyfULUPyWmnLAGgF-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-27" value="打开h5页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -59,7 +67,7 @@
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-62" value="将当前webview的网址设为空，并将webview标记为未使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="152.5" y="800" width="135" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-58" edge="1" target="I4NtMw9T6SOaLXnfnZ-y-62">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-58" target="I4NtMw9T6SOaLXnfnZ-y-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="650" as="sourcePoint" />
             <mxPoint x="230" y="810" as="targetPoint" />
@@ -78,33 +86,21 @@
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-67" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="I4NtMw9T6SOaLXnfnZ-y-66" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-1" value="复用池是否存在未使用的webview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-1" value="复用池是否存在未使用的webview" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yMHHeyfULUPyWmnLAGgF-5" target="I4NtMw9T6SOaLXnfnZ-y-20">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yMHHeyfULUPyWmnLAGgF-5" target="I4NtMw9T6SOaLXnfnZ-y-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yMHHeyfULUPyWmnLAGgF-10">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yMHHeyfULUPyWmnLAGgF-10" vertex="1" connectable="0">
           <mxGeometry y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-5" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;是否有待呈现的h5页面&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-5" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;是否有待呈现的h5页面&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-12" value="无操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="500" as="sourcePoint" />
-            <mxPoint x="480" y="500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-15" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="yMHHeyfULUPyWmnLAGgF-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yMHHeyfULUPyWmnLAGgF-1" target="I4NtMw9T6SOaLXnfnZ-y-20">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yMHHeyfULUPyWmnLAGgF-1" target="I4NtMw9T6SOaLXnfnZ-y-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="540" as="sourcePoint" />
             <mxPoint x="480" y="540" as="targetPoint" />
@@ -113,7 +109,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yMHHeyfULUPyWmnLAGgF-17" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="yMHHeyfULUPyWmnLAGgF-16">
+        <mxCell id="yMHHeyfULUPyWmnLAGgF-17" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="yMHHeyfULUPyWmnLAGgF-16" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-93" as="offset" />
           </mxGeometry>
