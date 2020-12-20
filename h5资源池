@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T03:13:04.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eUk2S8FdDgkcUkFByE-O" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T03:16:33.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JBR9GbeGEvwAfGgXjs3R" version="14.1.1" type="github">
   <diagram id="-FMuJsZBkuNm5iUB1e8e" name="Page-1">
     <mxGraphModel dx="950" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="yMHHeyfULUPyWmnLAGgF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-3" target="yMHHeyfULUPyWmnLAGgF-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-3" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;初始化一个webview，并标记为未使用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-3" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;初始化一个webview，并将其标记为未使用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-2" target="I4NtMw9T6SOaLXnfnZ-y-3" edge="1">
@@ -25,7 +25,7 @@
             <mxPoint x="490" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qik62fncIohVU9IEnB7--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-20" target="I4NtMw9T6SOaLXnfnZ-y-3">
+        <mxCell id="Qik62fncIohVU9IEnB7--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-20" target="I4NtMw9T6SOaLXnfnZ-y-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="605" />
@@ -33,7 +33,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-20" value="用已初始化的webview承载h5页面，并将webview标记为正在使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-20" value="用已初始化的webview承载h5页面，并将其标记为正在使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="570" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yMHHeyfULUPyWmnLAGgF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-27" target="yMHHeyfULUPyWmnLAGgF-1" edge="1">
@@ -58,13 +58,13 @@
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-57" value="关闭h5页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-58" value="当前资源池数量是否等于1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-58" value="当前复用池数量是否等于1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-60" value="销毁当前h5的webview" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-62" value="将当前webview的网址设为空，并将webview标记为未使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-62" value="将当前webview的网址设为空，并将其标记为未使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="152.5" y="800" width="135" height="70" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-58" target="I4NtMw9T6SOaLXnfnZ-y-62" edge="1">
