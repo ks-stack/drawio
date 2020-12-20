@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T03:24:40.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0aSz7kVi2g508ZwNmuoN" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T03:26:54.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cD_4wPV1Kftarsrk6V5V" version="14.1.1" type="github">
   <diagram id="-FMuJsZBkuNm5iUB1e8e" name="Page-1">
     <mxGraphModel dx="950" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-57" value="关闭h5页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-58" value="当前复用池里未使用的数量是否大于0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-58" value="当前复用池数量是否等于1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-60" value="销毁当前h5的webview" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -73,7 +73,7 @@
             <mxPoint x="230" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-65" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="I4NtMw9T6SOaLXnfnZ-y-64" connectable="0" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-65" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="I4NtMw9T6SOaLXnfnZ-y-64" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-66" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-58" target="I4NtMw9T6SOaLXnfnZ-y-60" edge="1">
@@ -83,7 +83,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-67" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="I4NtMw9T6SOaLXnfnZ-y-66" connectable="0" vertex="1">
+        <mxCell id="I4NtMw9T6SOaLXnfnZ-y-67" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="I4NtMw9T6SOaLXnfnZ-y-66" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yMHHeyfULUPyWmnLAGgF-1" value="复用池是否存在未使用的webview" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
