@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T06:05:00.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Q-jFQ6Ehe006ErvOxESt" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T07:05:24.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="r3yllyHHvZY4xz5XDkwU" version="14.1.1" type="github">
   <diagram id="-FMuJsZBkuNm5iUB1e8e" name="Page-1">
-    <mxGraphModel dx="690" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,21 +56,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-57" value="关闭h5页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="700" width="120" height="60" as="geometry" />
+          <mxGeometry y="775" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-58" value="当前资源池数量是否等于1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="775" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-60" value="销毁当前h5的webview" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="775" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-62" value="将当前webview的网址设为空，并将其标记为未使用状态" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="152.5" y="800" width="135" height="70" as="geometry" />
+          <mxGeometry x="152.5" y="875" width="135" height="70" as="geometry" />
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-58" target="I4NtMw9T6SOaLXnfnZ-y-62" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="650" as="sourcePoint" />
-            <mxPoint x="230" y="810" as="targetPoint" />
+            <mxPoint x="340" y="725" as="sourcePoint" />
+            <mxPoint x="230" y="885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-65" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="I4NtMw9T6SOaLXnfnZ-y-64" connectable="0" vertex="1">
@@ -78,8 +78,8 @@
         </mxCell>
         <mxCell id="I4NtMw9T6SOaLXnfnZ-y-66" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I4NtMw9T6SOaLXnfnZ-y-58" target="I4NtMw9T6SOaLXnfnZ-y-60" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="650" as="sourcePoint" />
-            <mxPoint x="440" y="650" as="targetPoint" />
+            <mxPoint x="340" y="725" as="sourcePoint" />
+            <mxPoint x="440" y="725" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -115,7 +115,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jz7rs78HyWnusC-rD2bU-2" value="这里好像不需要管那么多，直接销毁就行，因为按上面的逻辑，永远都会有一个未使用的webview" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="805" width="120" height="95" as="geometry" />
+          <mxGeometry x="160" y="680" width="120" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
