@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T07:21:59.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="Zuguu-stNT3bE_IUc6sa" type="github"><diagram id="Gp_EaB6_PZH0gp3SlLvs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-22T08:55:34.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kGRgCHejv8Yy-8pgxdUc" version="14.1.1" type="github">
+  <diagram id="Gp_EaB6_PZH0gp3SlLvs" name="Page-1">
+    <mxGraphModel dx="1042" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-1" target="z8YunSZ-U5_ePwNcyrDc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-1" value="kms新增或修改活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-2" value="根据使用的&lt;span style=&quot;text-align: left&quot;&gt;组件&lt;/span&gt;&lt;br&gt;生成&lt;span style=&quot;text-align: left&quot;&gt;id_version.html&lt;/span&gt;（后期可以做预渲染），并上传到服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-7" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="290" as="sourcePoint" />
+            <mxPoint x="550" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-8" value="KMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-9" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-10" target="z8YunSZ-U5_ePwNcyrDc-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-10" value="根据活动id获取最新的&lt;span style=&quot;text-align: left&quot;&gt;id_version.html&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-14" value="打包时将组件拆成独立的chunk，并自定义chunk名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-15" value="将组件chunk上传到oss" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-16" value="更新组件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-17" value="名词解释：&lt;br&gt;1.组件：活动使用的每一个组件&lt;br&gt;2.chunk：每个组件打包后的js包&lt;br&gt;3.ComponentMap: 组件与最新chunk的关系json文件，存在服务端(或oss？)&lt;br&gt;4.id_version.html&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;: 每个活动的入口html，id为活动id，version为当前活动的版本号可以为时间戳，&lt;/span&gt;存在服务端(或oss？)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-21" target="z8YunSZ-U5_ePwNcyrDc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-21" value="用户访问活动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-23" target="z8YunSZ-U5_ePwNcyrDc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-23" value="获取&lt;span style=&quot;text-align: left&quot;&gt;ComponentMap&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-25" target="z8YunSZ-U5_ePwNcyrDc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-25" value="根据&lt;span style=&quot;text-align: left&quot;&gt;ComponentMap&lt;/span&gt;&lt;br&gt;替换&lt;span style=&quot;text-align: left&quot;&gt;id_version.html中组件为最新版本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-27" value="返回最终html给用户" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
