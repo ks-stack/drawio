@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T02:57:04.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="LVrhMhv5A4jNV5zvCtPE" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T03:04:31.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="i2L6A1fCT81IqDSxx3t1" version="14.1.1" type="github">
   <diagram id="Gp_EaB6_PZH0gp3SlLvs" name="Page-1">
     <mxGraphModel dx="967" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z8YunSZ-U5_ePwNcyrDc-10" target="z8YunSZ-U5_ePwNcyrDc-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z8YunSZ-U5_ePwNcyrDc-10" value="根据活动id获取最新的&lt;span style=&quot;text-align: left&quot;&gt;id_version.html&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" parent="1" vertex="1">
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-10" value="根据活动id获取config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" parent="1" vertex="1">
           <mxGeometry x="250" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g0dTSssyI51B3dvX1-tZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z8YunSZ-U5_ePwNcyrDc-14" target="z8YunSZ-U5_ePwNcyrDc-15" edge="1">
@@ -72,7 +72,7 @@
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z8YunSZ-U5_ePwNcyrDc-25" target="z8YunSZ-U5_ePwNcyrDc-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z8YunSZ-U5_ePwNcyrDc-25" value="根据&lt;span style=&quot;text-align: left&quot;&gt;ComponentMap&lt;/span&gt;&lt;br&gt;替换&lt;span style=&quot;text-align: left&quot;&gt;id_version.html中组件为最新版本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" parent="1" vertex="1">
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-25" value="根据&lt;span style=&quot;text-align: left&quot;&gt;ComponentMap&lt;/span&gt;&lt;br&gt;替换模板&lt;span style=&quot;text-align: left&quot;&gt;html中组件为最新版本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="260" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-27" value="返回最终html给用户" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" parent="1" vertex="1">
@@ -89,6 +89,9 @@
         </mxCell>
         <mxCell id="g0dTSssyI51B3dvX1-tZ-6" value="打包脚本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="145" y="830" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LMsYeJmCvp6oB6egUCmq-2" value="接口1：saveConfig&lt;br&gt;参数：活动id，使用的组件列表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
