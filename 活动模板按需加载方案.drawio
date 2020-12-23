@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T09:46:22.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="j1ukhGrfdfOUVwiCJ555" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T02:56:18.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dbeTKui8-wBDEp-ZzBeo" version="14.1.1" type="github">
   <diagram id="Gp_EaB6_PZH0gp3SlLvs" name="Page-1">
     <mxGraphModel dx="967" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             <mxPoint x="320" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z8YunSZ-U5_ePwNcyrDc-2" value="根据使用的&lt;span style=&quot;text-align: left&quot;&gt;组件&lt;/span&gt;&lt;br&gt;生成&lt;span style=&quot;text-align: left&quot;&gt;id_version.html&lt;/span&gt;（后期可以做预渲染），并上传到服务端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-2" value="根据使用的&lt;span style=&quot;text-align: left&quot;&gt;组件&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;生成config，&lt;/span&gt;&lt;span&gt;并上传到服务端&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="190" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-7" value="" style="endArrow=none;html=1;" parent="1" edge="1">
@@ -36,19 +36,19 @@
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-10" value="根据活动id获取最新的&lt;span style=&quot;text-align: left&quot;&gt;id_version.html&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" parent="1" vertex="1">
           <mxGeometry x="250" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g0dTSssyI51B3dvX1-tZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-14" target="z8YunSZ-U5_ePwNcyrDc-15">
+        <mxCell id="g0dTSssyI51B3dvX1-tZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z8YunSZ-U5_ePwNcyrDc-14" target="z8YunSZ-U5_ePwNcyrDc-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-14" value="打包时将组件拆成独立的chunk，并自定义chunk名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" parent="1" vertex="1">
           <mxGeometry x="260" y="940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g0dTSssyI51B3dvX1-tZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-15" target="g0dTSssyI51B3dvX1-tZ-3">
+        <mxCell id="g0dTSssyI51B3dvX1-tZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z8YunSZ-U5_ePwNcyrDc-15" target="g0dTSssyI51B3dvX1-tZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-15" value="上传chunk到oss" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" parent="1" vertex="1">
           <mxGeometry x="260" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g0dTSssyI51B3dvX1-tZ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8YunSZ-U5_ePwNcyrDc-16" target="z8YunSZ-U5_ePwNcyrDc-14">
+        <mxCell id="g0dTSssyI51B3dvX1-tZ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z8YunSZ-U5_ePwNcyrDc-16" target="z8YunSZ-U5_ePwNcyrDc-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-16" value="更新组件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;" parent="1" vertex="1">
@@ -78,16 +78,16 @@
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-27" value="返回最终html给用户" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="260" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g0dTSssyI51B3dvX1-tZ-3" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;上传ComponentMap&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g0dTSssyI51B3dvX1-tZ-3" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;上传ComponentMap&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="1139" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g0dTSssyI51B3dvX1-tZ-5" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+        <mxCell id="g0dTSssyI51B3dvX1-tZ-5" value="" style="endArrow=none;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="800" as="sourcePoint" />
             <mxPoint x="550" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g0dTSssyI51B3dvX1-tZ-6" value="打包脚本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g0dTSssyI51B3dvX1-tZ-6" value="打包脚本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="145" y="830" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
