@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T02:56:18.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dbeTKui8-wBDEp-ZzBeo" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T02:57:04.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="LVrhMhv5A4jNV5zvCtPE" version="14.1.1" type="github">
   <diagram id="Gp_EaB6_PZH0gp3SlLvs" name="Page-1">
     <mxGraphModel dx="967" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             <mxPoint x="320" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z8YunSZ-U5_ePwNcyrDc-2" value="根据使用的&lt;span style=&quot;text-align: left&quot;&gt;组件&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;生成config，&lt;/span&gt;&lt;span&gt;并上传到服务端&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="z8YunSZ-U5_ePwNcyrDc-2" value="根据使用的&lt;span style=&quot;text-align: left&quot;&gt;组件&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;生成config，&lt;/span&gt;&lt;span&gt;并存到服务端&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="190" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z8YunSZ-U5_ePwNcyrDc-7" value="" style="endArrow=none;html=1;" parent="1" edge="1">
