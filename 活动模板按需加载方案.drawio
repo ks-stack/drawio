@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T03:08:25.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="AzvYmVleix1YWNzT-UrZ" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T03:08:40.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="md4KB3ajnYLbBNAyu1ta" version="14.1.1" type="github">
   <diagram id="Gp_EaB6_PZH0gp3SlLvs" name="Page-1">
     <mxGraphModel dx="967" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="LMsYeJmCvp6oB6egUCmq-6" value="接口2：saveHtml&lt;br&gt;文件：html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="950" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LMsYeJmCvp6oB6egUCmq-7" value="接口2：updateComponnetMap&lt;br&gt;参数：组件引用关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LMsYeJmCvp6oB6egUCmq-7" value="接口3：updateComponnetMap&lt;br&gt;参数：组件引用关系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="1150" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
