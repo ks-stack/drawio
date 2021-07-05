@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T06:59:18.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.0" etag="nQOIIu3wcf1qHSU2PNdU" type="github"><diagram id="b1oGWDm4PPosXPjlK-ag">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:08:29.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="8CQsorTBi1suyESSTay7" version="14.8.0" type="github">
+  <diagram id="b1oGWDm4PPosXPjlK-ag" name="Page-1">
+    <mxGraphModel dx="953" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-1" target="pTHr4Fl9q_mRZRi1oSDn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-1" target="pTHr4Fl9q_mRZRi1oSDn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-1" value="ks-rn-story&lt;br&gt;凯叔讲故事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-2" target="pTHr4Fl9q_mRZRi1oSDn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-2" target="pTHr4Fl9q_mRZRi1oSDn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-2" value="ks-rn-book&lt;br&gt;凯叔绘本识字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-3" target="pTHr4Fl9q_mRZRi1oSDn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="340" />
+              <mxPoint x="190" y="190" />
+              <mxPoint x="480" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-3" target="pTHr4Fl9q_mRZRi1oSDn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="340" />
+              <mxPoint x="190" y="440" />
+              <mxPoint x="480" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-3" target="pTHr4Fl9q_mRZRi1oSDn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-3" value="jenkins&lt;br&gt;打包平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-4" target="pTHr4Fl9q_mRZRi1oSDn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-4" value="ks-rn-jenkins&lt;br&gt;打包脚本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-11" value="更新仓库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-12" value="更新仓库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="170" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-13" value="ios项目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-17" target="pTHr4Fl9q_mRZRi1oSDn-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.85714285714289" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-17" value="安卓maven库&lt;br&gt;类似于npm库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-19" value="android项目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
