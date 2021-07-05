@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T07:15:23.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Zskl79vXVL7_12hXYfV_" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:22:08.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="RiRIa42Vu3ivCxRW5dvx" version="14.8.0" type="github">
   <diagram id="b1oGWDm4PPosXPjlK-ag" name="Page-1">
-    <mxGraphModel dx="953" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1112" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,6 +102,15 @@
         </mxCell>
         <mxCell id="pTHr4Fl9q_mRZRi1oSDn-31" value="索引库代码指向真正存放代码的库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="520" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-34" target="pTHr4Fl9q_mRZRi1oSDn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTHr4Fl9q_mRZRi1oSDn-34" target="pTHr4Fl9q_mRZRi1oSDn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTHr4Fl9q_mRZRi1oSDn-34" value="ks-rn-components&lt;br&gt;组件库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
