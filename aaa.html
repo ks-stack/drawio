@@ -1,0 +1,71 @@
+<style>
+    * {
+        border: none;
+        margin: 0;
+    }
+
+    video {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .time {
+        background-color: #fff;
+        position: absolute;
+        top: 58.5vh;
+        font-size: 4vw;
+        font-family: PingFangSC-Medium, PingFang SC, Arial, Helvetica, sans-serif;
+        color: #000;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        height: 7vw;
+        background-color: #4444ee;
+        position: absolute;
+        top: 0.7vh;
+        left: 0;
+        z-index: 10;
+    }
+</style>
+
+<body>
+    <video onclick="play()" loop id="video" autoplay x5-playsinline="" webkit-playsinline="" playsInline
+        src="https://static.kaishustory.com/medias/1657631148347680.mp4"></video>
+    <div class="time"></div>
+    <img src="https://static.kaishustory.com/medias/WechatIMG11.jpeg" class="img">
+</body>
+
+</div>
+<script>
+    function play() {
+        document.querySelector('#video').play()
+    }
+    document.querySelector('.time').innerHTML = formatTime(Date.now(), 'yyyy-MM-dd hh:mm:ss')
+    setInterval(() => {
+        document.querySelector('.time').innerHTML = formatTime(Date.now(), 'yyyy-MM-dd hh:mm:ss')
+    }, 1000);
+
+
+    function formatTime(time, format) {
+        const fullTime = Math.round(time).toString().length === 10 ? new Date(time * 1000) : new Date(time);
+        const y = `${fullTime.getFullYear()}`;
+        const M = `${fullTime.getMonth() + 1}`;
+        const d = `${fullTime.getDate()}`;
+        const h = `${fullTime.getHours()}`;
+        const m = `${fullTime.getMinutes()}`;
+        const s = `${fullTime.getSeconds()}`;
+        return format
+            .replace('yyyy', y)
+            .replace('MM', M.padStart(2, '0'))
+            .replace('dd', d.padStart(2, '0'))
+            .replace('hh', h.padStart(2, '0'))
+            .replace('mm', m.padStart(2, '0'))
+            .replace('ss', s.padStart(2, '0'));
+    }
+</script>
